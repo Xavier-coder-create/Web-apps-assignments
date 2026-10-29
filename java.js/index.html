@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Greeting based on time of day-->
+    <h3>Example 1: Dynamic Greeting</h3>
+    <div id = "greetingOutput"></div>
+
+    <script src ="script.js"></script>
+    <!--Show text when you click a button-->
+    <button onclick="setButtonText()">Click me</button>
+    <div id = "ButtonClickText"></div>
+    
+    <h3>Example :Button Click shows date</h3>
+    <!--second button-->
+    <button onclick ="GiveDate()">Date</button>
+    <div id = "DateGiver"></div>
+    
+    <!--text boxs-->
+    <label>Number 1: <input id = "num1" type="number"></label><br>
+    <label>Number 2: <input id = "num2" type="number"></label>
+    <button onclick = "addNumbers()">Add the numbers</button>button</button>
+    <p id = "addNumbers"></p>
+    <br>
+     <!--example 5-->
+    <label>length <input id = "length" type="text"></label>
+    <button onclick = "FindLength()">find the length</button>button</button>
+    <p id = "result"></p>
+
+    <!--example 6-->
+    <label>Password: <input id ="password" type="password"></label>
+    <label>
+        <input type="checkbox" id="showPassword" onclick="togglePasswordVisibility()"> Show Password
+    </label>
+
+     <!--example 7-->
+</body>
+</html>
