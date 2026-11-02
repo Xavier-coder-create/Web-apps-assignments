@@ -53,3 +53,27 @@ function togglePasswordVisibility() {
         input.type = "password";
     }
 }
+function ChangeStyle()
+{
+  let change = document.getElementById("example7");
+  if (change.style.backgroundColor === "lightblue") {
+    change.style.backgroundColor = "lightgreen";
+    change.style.fontSize = "80px";
+  }
+    else {
+    change.style.backgroundColor = "lightblue";
+    change.style.fontSize = "20px";
+  }
+
+  
+}
+
+function ChangeVisibility()
+{
+  let change = document.getElementById("example8");
+  if (change.style.display === "none") {
+    change.style.display = "block";
+  } else {
+    change.style.display = "none";
+  }
+}
